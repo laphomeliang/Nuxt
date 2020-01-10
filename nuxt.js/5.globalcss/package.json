@@ -1,0 +1,13 @@
+{
+    "name": "globalcss",
+    "dependencies": {
+        "bulma": "^0.5.1",
+        "nuxt": "latest"
+    },
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "post-update": "yarn upgrade --latest"
+    }
+}

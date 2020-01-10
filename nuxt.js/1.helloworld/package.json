@@ -1,0 +1,12 @@
+{
+    "name": "helloworld",
+    "dependencies": {
+        "nuxt": "^2.10.2"
+    },
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "post-update": "yarn upgrade --latest"
+    }
+}

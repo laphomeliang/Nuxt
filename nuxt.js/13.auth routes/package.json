@@ -1,0 +1,16 @@
+{
+    "name": "auth-routes",
+    "dependencies": {
+        "axios": "^0.19.0",
+        "body-parser": "^1.17.2",
+        "express": "^4.15.3",
+        "express-session": "^1.15.3",
+        "nuxt": "latest"
+    },
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "post-update": "yarn upgrade --latest"
+    }
+}
